@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-PetStoreAPI_Suite" class="navigator-link">
+              <span class="suite-name border-failed">PetStoreAPI Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-PetStoreAPI_Suite" class="navigator-link ">
+                    <span>C:\Workspaces\RestAssuerd\PetStoreAutomation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-PetStoreAPI_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-PetStoreAPI_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-PetStoreAPI_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-PetStoreAPI_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-PetStoreAPI_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-PetStoreAPI_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods, 4 failed,  1 skipped,  8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-PetStoreAPI_Suite" class="hide-methods failed suite-PetStoreAPI_Suite"> (hide)</a> <!-- hide-methods failed suite-PetStoreAPI_Suite -->
+                      <a href="#" panel-name="suite-PetStoreAPI_Suite" class="show-methods failed suite-PetStoreAPI_Suite"> (show)</a> <!-- show-methods failed suite-PetStoreAPI_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-PetStoreAPI_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreAPI_Suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testReadUserByName(testUser12)">testReadUserByName(testUser12)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreAPI_Suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testReadUserByName(testUser13)">testReadUserByName(testUser13)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreAPI_Suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testReadUserByName(testUser10)">testReadUserByName(testUser10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreAPI_Suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testReadUserByName(testUser11)">testReadUserByName(testUser11)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-PetStoreAPI_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-PetStoreAPI_Suite" class="hide-methods skipped suite-PetStoreAPI_Suite"> (hide)</a> <!-- hide-methods skipped suite-PetStoreAPI_Suite -->
+                      <a href="#" panel-name="suite-PetStoreAPI_Suite" class="show-methods skipped suite-PetStoreAPI_Suite"> (show)</a> <!-- show-methods skipped suite-PetStoreAPI_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-PetStoreAPI_Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreAPI_Suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testDeleteUserByName">testDeleteUserByName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-PetStoreAPI_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-PetStoreAPI_Suite" class="hide-methods passed suite-PetStoreAPI_Suite"> (hide)</a> <!-- hide-methods passed suite-PetStoreAPI_Suite -->
+                      <a href="#" panel-name="suite-PetStoreAPI_Suite" class="show-methods passed suite-PetStoreAPI_Suite"> (show)</a> <!-- show-methods passed suite-PetStoreAPI_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-PetStoreAPI_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreAPI_Suite" title="api.test.UserTests" class="method navigator-link" hash-for-method="testDeleteUserByName">testDeleteUserByName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreAPI_Suite" title="api.test.UserTests" class="method navigator-link" hash-for-method="testGetUserByName">testGetUserByName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreAPI_Suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testPostUser(1012, testUser12, Smith, Kom, c@gmail.com, test@12, 123456789)">testPostUser(1012, testUser12, Smith, Kom, c@gmail.com, test@12, 123456789)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreAPI_Suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testPostUser(1010, testUser10, John , Candey, a@gmail.com, test@10, 123456789)">testPostUser(1010, testUser10, John , Candey, a@gmail.com, test@10, 123456789)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreAPI_Suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testPostUser(1013, testUser13, Emily, Johnson, d@gmail.com, test@13, 123456789)">testPostUser(1013, testUser13, Emily, Johnson, d@gmail.com, test@13, 123456789)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreAPI_Suite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testPostUser(1011, testUser11, Kim, Steve, b@gmail.com, test@11, 123456789)">testPostUser(1011, testUser11, Kim, Steve, b@gmail.com, test@11, 123456789)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreAPI_Suite" title="api.test.UserTests" class="method navigator-link" hash-for-method="testPostUser">testPostUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreAPI_Suite" title="api.test.UserTests" class="method navigator-link" hash-for-method="testUpdateUserByName">testUpdateUserByName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-PetStoreAPI_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-PetStoreAPI_Suite" class="panel PetStoreAPI_Suite">
+          <div class="suite-PetStoreAPI_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">api.test.DDTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testReadUserByName(testUser12)">
+                  </a> <!-- testReadUserByName(testUser12) -->
+                  <span class="method-name">testReadUserByName</span>
+                  <span class="parameters">(testUser12)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [200] but found [404]
+	at api.test.DDTests.testReadUserByName(DDTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testReadUserByName(testUser13)">
+                  </a> <!-- testReadUserByName(testUser13) -->
+                  <span class="method-name">testReadUserByName</span>
+                  <span class="parameters">(testUser13)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [200] but found [404]
+	at api.test.DDTests.testReadUserByName(DDTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testReadUserByName(testUser10)">
+                  </a> <!-- testReadUserByName(testUser10) -->
+                  <span class="method-name">testReadUserByName</span>
+                  <span class="parameters">(testUser10)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [200] but found [404]
+	at api.test.DDTests.testReadUserByName(DDTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testReadUserByName(testUser11)">
+                  </a> <!-- testReadUserByName(testUser11) -->
+                  <span class="method-name">testReadUserByName</span>
+                  <span class="parameters">(testUser11)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [200] but found [404]
+	at api.test.DDTests.testReadUserByName(DDTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PetStoreAPI_Suite-class-failed -->
+          <div class="suite-PetStoreAPI_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">api.test.DDTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteUserByName">
+                  </a> <!-- testDeleteUserByName -->
+                  <span class="method-name">testDeleteUserByName</span>
+                  <div class="stack-trace">java.lang.Throwable: Method api.test.DDTests.testDeleteUserByName() on instance api.test.DDTests@32c8e539 depends on not successfully finished methods 
+[api.test.DDTests.testReadUserByName() on instance api.test.DDTests@32c8e539]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PetStoreAPI_Suite-class-skipped -->
+          <div class="suite-PetStoreAPI_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api.test.UserTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteUserByName">
+                  </a> <!-- testDeleteUserByName -->
+                  <span class="method-name">testDeleteUserByName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUserByName">
+                  </a> <!-- testGetUserByName -->
+                  <span class="method-name">testGetUserByName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostUser">
+                  </a> <!-- testPostUser -->
+                  <span class="method-name">testPostUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateUserByName">
+                  </a> <!-- testUpdateUserByName -->
+                  <span class="method-name">testUpdateUserByName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PetStoreAPI_Suite-class-passed -->
+          <div class="suite-PetStoreAPI_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api.test.DDTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostUser(1012, testUser12, Smith, Kom, c@gmail.com, test@12, 123456789)">
+                  </a> <!-- testPostUser(1012, testUser12, Smith, Kom, c@gmail.com, test@12, 123456789) -->
+                  <span class="method-name">testPostUser</span>
+                  <span class="parameters">(1012,testUser12,Smith,Kom,c@gmail.com,test@12,123456789)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostUser(1010, testUser10, John , Candey, a@gmail.com, test@10, 123456789)">
+                  </a> <!-- testPostUser(1010, testUser10, John , Candey, a@gmail.com, test@10, 123456789) -->
+                  <span class="method-name">testPostUser</span>
+                  <span class="parameters">(1010,testUser10,John ,Candey,a@gmail.com,test@10,123456789)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostUser(1013, testUser13, Emily, Johnson, d@gmail.com, test@13, 123456789)">
+                  </a> <!-- testPostUser(1013, testUser13, Emily, Johnson, d@gmail.com, test@13, 123456789) -->
+                  <span class="method-name">testPostUser</span>
+                  <span class="parameters">(1013,testUser13,Emily,Johnson,d@gmail.com,test@13,123456789)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostUser(1011, testUser11, Kim, Steve, b@gmail.com, test@11, 123456789)">
+                  </a> <!-- testPostUser(1011, testUser11, Kim, Steve, b@gmail.com, test@11, 123456789) -->
+                  <span class="method-name">testPostUser</span>
+                  <span class="parameters">(1011,testUser11,Kim,Steve,b@gmail.com,test@11,123456789)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PetStoreAPI_Suite-class-passed -->
+        </div> <!-- panel PetStoreAPI_Suite -->
+        <div panel-name="test-xml-PetStoreAPI_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Workspaces\RestAssuerd\PetStoreAutomation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;PetStoreAPI Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;api.utilities.ExtentReportManager&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;User API Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;api.test.UserTests&quot;/&gt;
+      &lt;class name=&quot;api.test.DDTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- User API Tests --&gt;
+&lt;/suite&gt; &lt;!-- PetStoreAPI Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-PetStoreAPI_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for PetStoreAPI Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">User API Tests (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-PetStoreAPI_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for PetStoreAPI Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-PetStoreAPI_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for PetStoreAPI Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_PetStoreAPI_Suite');
+function tableData_PetStoreAPI_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testGetUserByName')
+data.setCell(0, 2, 'api.test.UserTests')
+data.setCell(0, 3, 9131);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testPostUser')
+data.setCell(1, 2, 'api.test.UserTests')
+data.setCell(1, 3, 2793);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testUpdateUserByName')
+data.setCell(2, 2, 'api.test.UserTests')
+data.setCell(2, 3, 2110);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testPostUser')
+data.setCell(3, 2, 'api.test.DDTests')
+data.setCell(3, 3, 1152);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testPostUser')
+data.setCell(4, 2, 'api.test.DDTests')
+data.setCell(4, 3, 1086);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testDeleteUserByName')
+data.setCell(5, 2, 'api.test.UserTests')
+data.setCell(5, 3, 1085);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testPostUser')
+data.setCell(6, 2, 'api.test.DDTests')
+data.setCell(6, 3, 1057);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testPostUser')
+data.setCell(7, 2, 'api.test.DDTests')
+data.setCell(7, 3, 1056);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testReadUserByName')
+data.setCell(8, 2, 'api.test.DDTests')
+data.setCell(8, 3, 1051);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testReadUserByName')
+data.setCell(9, 2, 'api.test.DDTests')
+data.setCell(9, 3, 1045);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testReadUserByName')
+data.setCell(10, 2, 'api.test.DDTests')
+data.setCell(10, 3, 1034);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testReadUserByName')
+data.setCell(11, 2, 'api.test.DDTests')
+data.setCell(11, 3, 1031);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testDeleteUserByName')
+data.setCell(12, 2, 'api.test.DDTests')
+data.setCell(12, 3, 0);
+window.suiteTableData['PetStoreAPI_Suite']= { tableData: data, tableDiv: 'times-div-PetStoreAPI_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 23 seconds</span>
+              <div id="times-div-PetStoreAPI_Suite">
+              </div> <!-- times-div-PetStoreAPI_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-PetStoreAPI_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for PetStoreAPI Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-PetStoreAPI_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-PetStoreAPI_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.test.UserTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testPostUser</span>
+                <span class="method-start">180 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetUserByName</span>
+                <span class="method-start">2999 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdateUserByName</span>
+                <span class="method-start">12132 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeleteUserByName</span>
+                <span class="method-start">14243 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.test.DDTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testPostUser(1010, testUser10, John , Candey, a@gmail.com, test@10, 123456789)</span>
+                <span class="method-start">16585 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPostUser(1011, testUser11, Kim, Steve, b@gmail.com, test@11, 123456789)</span>
+                <span class="method-start">17738 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPostUser(1012, testUser12, Smith, Kom, c@gmail.com, test@12, 123456789)</span>
+                <span class="method-start">18796 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPostUser(1013, testUser13, Emily, Johnson, d@gmail.com, test@13, 123456789)</span>
+                <span class="method-start">19853 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testReadUserByName(testUser10)</span>
+                <span class="method-start">21018 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testReadUserByName(testUser11)</span>
+                <span class="method-start">22066 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testReadUserByName(testUser12)</span>
+                <span class="method-start">23101 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testReadUserByName(testUser13)</span>
+                <span class="method-start">24153 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
